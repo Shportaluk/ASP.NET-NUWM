@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Add Page";
+}
+<script>
+    function AddPageToDB() {
+        var category = $("#category").val();
+        var title = $("#title").val();
+        var description = $("#description").val();
+        var urlImg = $("#urlImg").val();
+
+        $.ajax({
+            type: "GET",
+            url: '/AddPageToDB?category=' + category + '&title=' + title + '&description=' + description + '&urlImg=' + urlImg,
+            contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+            dataType: "text",
+            success: function (msg) {
+
+            }
+        });
+    }
+</script>
+
+<div class="form">
+    <p>Category: </p>
+    <input type="text" id="category" />
+    <p>Title: </p>
+    <input type="text" id="title" />
+    <p>Description: </p>
+<textarea type="text" id="description"></textarea>
+    <p>Url to img: </p>
+    <input type="text" id="urlImg" />
+
+
+    <button onclick="AddPageToDB()">Add page</button>
+</div>

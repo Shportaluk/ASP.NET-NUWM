@@ -76,3 +76,7 @@ C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\obj\Debug\ASP.NET NUWM.c
 C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\obj\Debug\ASP.NET NUWM.csproj.CopyComplete
 C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\obj\Debug\ASP.NET NUWM.dll
 C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\obj\Debug\ASP.NET NUWM.pdb
+C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\bin\EntityFramework.dll
+C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\bin\EntityFramework.SqlServer.dll
+C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\bin\EntityFramework.xml
+C:\Users\DEVIANT\source\repos\ASP.NET NUWM\ASP.NET NUWM\bin\EntityFramework.SqlServer.xml
